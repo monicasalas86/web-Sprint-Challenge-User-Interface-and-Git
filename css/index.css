@@ -18,11 +18,10 @@ p {
 }
 
 .header {
-    width: 800px;
+    width: 850px;
     margin: 0 auto;
     display: flex;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding: 20px;
 }
 
 .header nav {
@@ -30,7 +29,7 @@ p {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    padding-left: 20px;
+    padding: 20px;
 }
 
 .header nav a {
@@ -44,7 +43,7 @@ p {
 }
 
 .header-image {
-    width: 800px;
+    width: 850px;
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -211,8 +210,6 @@ p {
     padding-right: 4%;
 }
 
-
-
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
@@ -239,19 +236,20 @@ footer nav a {
 }
 
 .container-about-page {
-    width: 800px;
+    width: 850px;
     margin: 0 auto;
 }
 
 .about-image {
-    width: 800px;
+    width: 850px;
     margin: 0 auto;
     margin-bottom: 20px;
+    
 }
 
 .about-text {
-    padding: 10px;
-    border-bottom: 1px dashed black;
+   width: 850px;
+   padding: 20px;
 }
 
 .about-cards {
@@ -264,7 +262,26 @@ footer nav a {
 }
 .about-cards .cards {
     border-bottom: 1px dashed black;
-    width: 400px;
+    width: 372px;
     display: flex;
     flex-wrap: wrap;
+    margin: 20px;
 }
+.cards a {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about-bottom-text {
+    width: 850px;
+    padding: 20px;
+}
+
