@@ -43,11 +43,6 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-.header nav a:hover {
-    background: black;
-    color: white;
-}
-
 .header-image {
     width: 800px;
     margin: 0 auto;
@@ -57,7 +52,6 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 .top-content {
@@ -74,6 +68,17 @@ p {
     padding-bottom: 20px;  
 }
 
+.text-container h2 {
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 10px;
+}
+
+.text-container p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    font-size: 14px;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -82,18 +87,113 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    font-family: 'Rubik', sans-serif;
+
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box-1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -111,6 +211,8 @@ p {
     padding-right: 4%;
 }
 
+
+
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
@@ -127,6 +229,8 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 footer nav a {
