@@ -237,3 +237,34 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about-image {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    padding: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.about-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 850px;
+    padding-top: 15px;
+    justify-content: space-evenly;
+}
+.about-cards .cards {
+    border-bottom: 1px dashed black;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
